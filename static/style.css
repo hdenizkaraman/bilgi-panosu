@@ -1,0 +1,50 @@
+/* GOOGLE FONTS */
+
+/* MAIN ITEMS */
+
+#main-frame{
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+#main-frame > div{padding: 5px; width: 100%;}
+#main-header .row{border-radius: 20px;}
+#header-properties > div{
+    padding: 5px;
+    font-family: "Arial";
+    font-weight: bolder;
+    font-size: 2.3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-content{height: 100%;}
+#sliderOne .carousel-inner ,#sliderOne .carousel-item{width: 100%; height: 100%;}
+#sliderOne .carousel-item{
+margin-top:5%;
+}
+/* TABLE OF TEACHER LIST */
+.table-teacher{
+    height: 62%;
+    overflow: scroll;
+}
+.table-teacher::-webkit-scrollbar{
+    display: none;
+}
+
+/* WEATHER LIST */
+.weather-frame{
+    height: calc(38% - 8px);
+    margin-top: 8px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
